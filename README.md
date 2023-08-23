@@ -1,3 +1,4 @@
+<img width="1280" alt="Screenshot 2023-08-23 at 12 04 52 PM" src="https://github.com/priyankaj04/LoginPage1/assets/103273242/e9c912b1-20e0-406b-bfe8-2afdc2bec519">
 # Simple Login Page with Validations
 It contains
 * First Name & Last Name : Only letters, No Special Characters or No Numbers
