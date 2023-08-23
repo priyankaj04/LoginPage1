@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.allcontent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    flex: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #f2efef;
+}
+
+.right {
+    flex: 0.8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #407BFF;
+    font-family: 'EB Garamond', serif;
+}
+
+h1 {
+    margin-top: 20px;
+    color: white;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    background-color: #f2efef;
+    border-radius: 20px;
+    width: 270px;
+    font-size: 16px;
+    font-family: 'EB Garamond', serif;
+}
+
+.input {
+    margin: 5px;
+    font-size: 14px;
+    color: gray;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.531);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.checkbox input {
+    width: 20px;
+    margin-Right: 3px;
+    cursor: pointer;
+}
+
+.checkbox {
+    margin-top: 10px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.button {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.button input {
+    background-color: #407BFF;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.signup {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.signup span {
+    color: #407BFF;
+    cursor: pointer;
+}
+
+.icons {
+    cursor: pointer;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.icons-cnt {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}

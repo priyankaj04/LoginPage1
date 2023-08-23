@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <div class="allcontent">
+        <div class="left">
+            <img src="./Images/onboarding-animate.svg" />
+        </div>
+        <div class="right">
+            <form>
+                <h1>Welcome to Tech Tangoo</h1>
+                <div class="card">
+                    <div class="input">
+                        <p>First Name</p><input type="text" name="firstname" pattern="[A-Za-z]+" id="n1" required />
+                    </div>
+                    <div class="input">
+                        <p>Last Name</p><input type="text" name="lastname" pattern="[A-Za-z]+" id="n2" required />
+                    </div>
+                    <div class="input">
+                        <p>Email</p><input type="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" id="em" required />
+                    </div>
+                    <div class="input">
+                        <p>Mobile Number</p><input type="tel" pattern="[0-9]{10}" id="mob" required />
+                    </div>
+                    <div class="input">
+                        <p>Password</p><input type="password" pattern="^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()])[A-Za-z\d!@#$%^&*()]{8,}$" id="pass" required />
+                    </div>
+                    <div class="input">
+                        <p>Confirm Password</p><input type="password" id="cpass" required />
+                    </div>
+                    <div class="checkbox"><input type="checkbox" name="Submit" required /> I agree for terms and conditions.
+                    </div>
+                    <div class="button"><input type="submit" name="Submit" value="Register" /></div>
+                    <p class="signup">Already have an account? <span>Sign In Here</span></p>
+                </div>
+            </form>
+            <div class="icons-cnt">
+                <p style="text-align: center; color:white;">or</p>
+                <div class="container">
+                    <img src="./Images/google.png" width="20px" height="20px" class="icons" />
+                    <img src="./Images/github.png" width="20px" height="20px" class="icons" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function validatePassword() {
+            const password = document.getElementById("password").value;
+            const regex = /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()])[A-Za-z\d!@#$%^&*()]{8,}$/;
+            if (!regex.test(password)) {
+                alert("Password must contain at least one capital letter, one number, and one special character.");
+            }
+        }
+    </script>
+</body>
+
+</html>
