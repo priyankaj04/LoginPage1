@@ -1,4 +1,5 @@
 # Simple Login Page with Validations
+## Used only `HTML` and `CSS`
 It contains
 * First Name & Last Name : Only letters, No Special Characters or No Numbers
 * Mobile Number: Only 10 numbers, Not less than 10 or more than 10.
